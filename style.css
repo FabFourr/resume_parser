@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #79009e;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+}
+
+/* input[type="file"] {
+    display: none;
+} */
+
+button {
+    display: block;
+    background-color: #79009e;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #560079;
+}
+
+#parsed-info {
+    display: none;
+}

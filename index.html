@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FabFour Resume Parser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to FabFour Resume Parser</h1>
+        <p>Simplify your job application process with automated resume parsing.</p>
+    </header>
+    <section id="resume-form">
+        <h2>Upload Your Resume</h2>
+        <label for="resume-upload" class="custom-upload-button">Choose Resume</label>
+        <input type="file" id="resume-upload" accept=".txt,.pdf">
+        <button id="parse-button">Parse</button>
+    </section>
+    <section id="parsed-info">
+        <h2>Parsed Information</h2>
+        <div id="name"></div>
+        <div id="email"></div>
+        <div id="phone"></div>
+        <div id="gender"></div>
+    </section>
+    <footer>
+        <p>&copy; 2023 FabFour Resume Parser</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
